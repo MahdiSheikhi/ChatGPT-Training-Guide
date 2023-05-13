@@ -15,13 +15,17 @@ However, we can leverage our own knowledge to supplement ChatGPT's understanding
 ![DAX New function](https://github.com/MahdiSheikhi/ChatGPT-Training-Guide/blob/main/Assests/DAX-New-Function.png)
 https://learn.microsoft.com/en-us/dax/new-dax-functions
 <br /><br />
-You can find trainining content here or download from following link:
-<br /><br />
-https://github.com/MahdiSheikhi/ChatGPT-Training-Guide/blob/main/ChatGPT-training-sample.txt
-
+You can find trainining content here or download from following link: [ChatGPT-training-sample](https://github.com/MahdiSheikhi/ChatGPT-Training-Guide/blob/main/ChatGPT-training-sample.txt)
 <br /><br />
 
+Now send training content for ChatGPT, if anything find you Get "YES" response. 
+<br /><br />
 
+![ChatGPT Response](https://github.com/MahdiSheikhi/ChatGPT-Training-Guide/blob/main/Assests/Yes-Response.png)
+
+<br /><br />
+
+## ChatGPT Training Contnet
 I want to introduce you new DAX function with following structure and definition. Then, I am going to give you sample to completely understand New DAX function.
 
 ROWNUMBER Returns the unique ranking for the current context within the specified partition, sorted by the specified order. If a match cannot be found then then rownumber is blank.
@@ -97,8 +101,16 @@ Now that you have a full understanding of new DAX function , I want you to act l
 
    <br /><br /><br />
 
+ 
+ 
+ ## ChatGPT Response
+
+  After submit training contnet and get YES, send prompt like belowe:
+
+ 
 ![DAX New function](https://github.com/MahdiSheikhi/ChatGPT-Training-Guide/blob/main/Assests/DAX-ROWNUMBER-Generated.png)
 
   <br /><br /><br />
 
+ Happy training
 
