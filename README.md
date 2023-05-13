@@ -101,8 +101,13 @@ Now that you have a full understanding of new DAX function , I want you to act l
 
    <br /><br /><br />
 
+ 
+ 
  ## ChatGPT Response
 
+  After submit training contnet and get YES, send prompt like belowe:
+
+ 
 ![DAX New function](https://github.com/MahdiSheikhi/ChatGPT-Training-Guide/blob/main/Assests/DAX-ROWNUMBER-Generated.png)
 
   <br /><br /><br />
