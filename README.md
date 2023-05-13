@@ -2,29 +2,22 @@
 Here, you'll find a detailed guide to train ChatGPT for conversational AI tasks. This includes steps for data preparation, model configuration, and fine-tuning. We provide code snippets, tips, and resources to help you navigate the training process. Always refer to OpenAI's official documentation for the most current information.
 
 
-Hi 
-I want to share my knowledge about training ChatGPT for using information after September 2021 cut-off date that ChatGPT can response.
-Let's start with current knowledge of ChatGPT about ROWNUMBER function in DAX.
+It's important to understand that ChatGPT's data only extends until September 2021. Thus, the information it can provide is limited to that timeframe. For instance, let's consider the ROWNUMBER function in DAX. This function was introduced in April 2023, after the cut-off date of ChatGPT's training data. Consequently, ChatGPT can't generate responses that include knowledge of this function.
+<br /><br /><br />
+![DAX New function](https://github.com/MahdiSheikhi/ChatGPT-Training-Guide/blob/main/Assests/DAX-ROWNUMBER-NoData.png)
+
+ https://learn.microsoft.com/en-us/dax/rownumber-function-dax
+ <br /><br /><br />
 
 
- 
-
-
-It's correct, ROWNUMBER is new function introduce April 2023.
-
- 
-
-
-
-So, we can train AI systems like ChatGPT with our knowledge, after adding Microsoft definition of ROWNUMBER ChatGPT can use it as below.
-
-
- 
-
-
+However, we can leverage our own knowledge to supplement ChatGPT's understanding. After incorporating the definition of ROWNUMBER provided by Microsoft, ChatGPT can utilize this information as demonstrated below.
+<br /><br /><br />
+![DAX New function](https://github.com/MahdiSheikhi/ChatGPT-Training-Guide/blob/main/Assests/DAX-New-Function.png)
+https://learn.microsoft.com/en-us/dax/new-dax-functions
+<br /><br />
 You can find train text data here:
 
-
+<br /><br />
 
 
 I want to introduce you new DAX function with following structure and definition. Then, I am going to give you sample to completely understand New DAX function.
@@ -78,7 +71,8 @@ If the columns specified within <orderBy> and <partitionBy> cannot uniquely iden
 
 Example
 The following DAX query:
-
+ 
+```DAX
 EVALUATE
 ADDCOLUMNS(
     'DimGeography',
@@ -91,7 +85,7 @@ ADDCOLUMNS(
     	PARTITIONBY(
     		'DimGeography'[EnglishCountryRegionName])))
 ORDER BY [EnglishCountryRegionName] asc, [StateProvinceName] desc, [City] asc
-
+```
 
 Returns a table that uniquely ranks each geography with the same EnglishCountryRegionName, by their StateProvinceName and City.
 
@@ -99,5 +93,10 @@ Returns a table that uniquely ranks each geography with the same EnglishCountryR
 
 Now that you have a full understanding of new DAX function , I want you to act like a professional coder and to use this function while generating DAX query.Are you ready to start generating DAX query with new function ? If so, respond with ‘YES’ and nothing else.
 
+   <br /><br /><br />
+
+![DAX New function](https://github.com/MahdiSheikhi/ChatGPT-Training-Guide/blob/main/Assests/DAX-ROWNUMBER-Generated.png)
+
+  <br /><br /><br />
 
 
