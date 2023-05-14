@@ -1,8 +1,7 @@
 # ChatGPT-Training-Guide
-Here, you'll find a detailed guide to train ChatGPT for conversational AI tasks. This includes steps for data preparation and fine-tuning. I provide code snippets, tips, and resources to help you navigate the training process. Always refer to OpenAI's official documentation for the most current information.
+Here, you'll find a detailed guide on training ChatGPT for conversational AI tasks. This includes steps for preparing data and fine-tuning the model. I provide code snippets, tips, and resources to help you navigate the training process. Always refer to OpenAI's official documentation for the most current information.
 
-
-It's important to understand that current version of ChatGPT's data only extends until September 2021. Thus, the information it can provide is limited to that timeframe. For instance, let's consider the ROWNUMBER function in DAX. This function was introduced in April 2023, after the cut-off date of ChatGPT's training data. Consequently, ChatGPT can't generate responses that include knowledge of this function.
+It's important to understand that the current version of ChatGPT's data only extends until September 2021. Thus, the information it can provide is limited to that timeframe. For instance, let's consider the ROWNUMBER function in DAX. This function was introduced in April 2023, after the cut-off date of ChatGPT's training data. Consequently, ChatGPT can't generate responses that include knowledge of this function.
 <br /><br /><br />
 ![DAX New function](https://github.com/MahdiSheikhi/ChatGPT-Training-Guide/blob/main/Assests/DAX-ROWNUMBER-NoData.png)
 
@@ -15,14 +14,14 @@ However, we can leverage our own knowledge to supplement ChatGPT's understanding
 ![DAX New function](https://github.com/MahdiSheikhi/ChatGPT-Training-Guide/blob/main/Assests/DAX-New-Function.png)
 https://learn.microsoft.com/en-us/dax/new-dax-functions
 <br /><br />
-You can find trainining content here or download from following link: [ChatGPT-training-sample](https://github.com/MahdiSheikhi/ChatGPT-Training-Guide/blob/main/ChatGPT-training-sample.txt)
+You can find training content here or download from following link: [ChatGPT-training-sample](https://github.com/MahdiSheikhi/ChatGPT-Training-Guide/blob/main/ChatGPT-training-sample.txt)
 <br /><br />
 
 Now send training content for ChatGPT to train it
 <br /><br />
 
-## ChatGPT Training Contnet
-I want to introduce you new DAX function with following structure and definition. Then, I am going to give you sample to completely understand New DAX function.
+## ChatGPT Training Conten
+I want to introduce a new DAX function to you with following structure and definition. Then, I am going to give you sample to completely understand New DAX function.
 
 ROWNUMBER Returns the unique ranking for the current context within the specified partition, sorted by the specified order. If a match cannot be found then then rownumber is blank.
 
