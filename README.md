@@ -18,11 +18,7 @@ https://learn.microsoft.com/en-us/dax/new-dax-functions
 You can find trainining content here or download from following link: [ChatGPT-training-sample](https://github.com/MahdiSheikhi/ChatGPT-Training-Guide/blob/main/ChatGPT-training-sample.txt)
 <br /><br />
 
-Now send training content for ChatGPT, if anything find you Get "YES" response. 
-<br /><br />
-
-![ChatGPT Response](https://github.com/MahdiSheikhi/ChatGPT-Training-Guide/blob/main/Assests/Yes-Response.png)
-
+Now send training content for ChatGPT to train it
 <br /><br />
 
 ## ChatGPT Training Contnet
@@ -101,7 +97,14 @@ Now that you have a full understanding of new DAX function , I want you to act l
 
    <br /><br /><br />
 
- 
+ ## Get ChatGPT acknowledgement
+
+ If anything fine, you get "YES" response from ChatGPT. 
+<br /><br />
+
+![ChatGPT Response](https://github.com/MahdiSheikhi/ChatGPT-Training-Guide/blob/main/Assests/Yes-Response.png)
+
+<br /><br />
  
  ## ChatGPT Response
 
