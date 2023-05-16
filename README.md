@@ -20,7 +20,7 @@ You can find training content here or download from following link: [ChatGPT-tra
 Now send training content for ChatGPT to train it
 <br /><br />
 
-## ChatGPT Training Conten
+## ChatGPT Training Content
 I want to introduce a new DAX function to you with following structure and definition. Then, I am going to give you sample to completely understand New DAX function.
 
 ROWNUMBER Returns the unique ranking for the current context within the specified partition, sorted by the specified order. If a match cannot be found then then rownumber is blank.
